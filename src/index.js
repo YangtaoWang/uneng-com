@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./index.scss";
-import NewPortal from './newPortal/newPortal';
+// import NewPortal from './newPortal/newPortal';
 
 export default class MyComponent extends Component {
   
@@ -17,13 +17,13 @@ export default class MyComponent extends Component {
     const ringStyle = Object.assign({}, colorStyle, sizeStyle);
 
     return (
-      <NewPortal>
-        <div className="loading" style={sizeStyle}>
-          <div className="loading__ring" style={ringStyle} />
-          <div className="loading__ring" style={ringStyle} />
-          <div className="loading__ring" style={ringStyle} />
-        </div>
-      </NewPortal>
+      // <NewPortal>
+      // </NewPortal>
+      <div className="loading" style={sizeStyle}>
+        <div className="loading__ring" style={ringStyle} />
+        <div className="loading__ring" style={ringStyle} />
+        <div className="loading__ring" style={ringStyle} />
+      </div>
     );
   }
 }

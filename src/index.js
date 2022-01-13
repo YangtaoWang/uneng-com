@@ -26,7 +26,7 @@ export default class MyComponent extends Component {
         <div className="loading__ring" style={ringStyle} />
         222
         <div className="loading__ring" style={ringStyle} />
-        333
+        test11133
       </div>
     );
   }

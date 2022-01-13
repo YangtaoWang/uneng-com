@@ -10,6 +10,10 @@
     "prepublishOnly": "npm run transpile",
     "build": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangtaoWang/uneng-com.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

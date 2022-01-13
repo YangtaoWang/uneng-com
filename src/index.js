@@ -21,6 +21,7 @@ export default class MyComponent extends Component {
       // </NewPortal>
       <div className="loading" style={sizeStyle}>
         <div className="loading__ring" style={ringStyle} />
+        111
         <div className="loading__ring" style={ringStyle} />
         <div className="loading__ring" style={ringStyle} />
       </div>

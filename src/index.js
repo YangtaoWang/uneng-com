@@ -20,6 +20,7 @@ export default class MyComponent extends Component {
       // <NewPortal>
       // </NewPortal>
       <div className="loading" style={sizeStyle}>
+        444
         <div className="loading__ring" style={ringStyle} />
         111
         <div className="loading__ring" style={ringStyle} />
